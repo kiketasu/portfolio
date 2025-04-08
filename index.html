@@ -6,51 +6,62 @@
     <title>Enric Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-      </style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
-      <nav id="nav-bar">
-        <ul id="nav-links">
-          <li class="links"><a href="#hero">Hi 👋🏻</a></li>
-          <li class="links"><a href="#my-projects">Projects 💻</a></li>
-          <li class="links"><a href="#contact">Contact 📩</a></li>
-        </ul>
-      </nav>
-        <section id="hero">
-          <img src="./assets/me.jpg" alt="a deer and I in Nara">
-            <h1>Hi👋🏻, I'm Enric</h1>
-            <p><i>work in progress</i> web developer</p>            
-        </section>
-        <section id="my-projects">
-          <div id="certificates">
-            <h2>Responsive Web Design certificate</h2>
-            <img src="" alt="freecodecamp certificate">
-          </div>
-          <div id="project-container">
-            <div class="project-card">
-              <img src="./assets/tribute.jpg" alt="Gregory Clark tribute">
-              <h3>Tribute page</h3>
-            </div>
-            <div class="project-card">
-              <img src="./assets/documentation.jpg" alt="Skyrim game description">
-              <h3>Documentation page</h3>
-            </div>
-            <div class="project-card">
-              <img src="./assets/landing.jpg" alt="Landing page">
-              <h3>Landing page</h3>
-            </div>
-          </div>
-        
-        </section>
-        <section id="contact">
-          <h2>Let's work together!</h2> 
-          hi there! I'm looking for a job as a web developer. If you are interested in my work, please contact me.
-          
-        </section>
-    </main>
-    <footer>
-
-    </footer>
+    <nav id="nav-bar">
+      <ul id="nav-links">
+        <li class="links"><a href="#hero">Hi 👋🏻</a></li>
+        <li class="links"><a href="#my-projects">Projects 💻</a></li>
+        <li class="links"><a href="#contact">Contact 📩</a></li>
+      </ul>
+    </nav>
+    <section id="hero">
+      <img src="./assets/me.jpg" alt="a deer and I in Nara" />
+      <h1>Hi👋🏻, I'm Enric</h1>
+      <p><i>work in progress</i> web developer</p>
+    </section>
+    <section id="my-projects">
+      <div id="project-container">
+        <div class="project-card">
+          <a href="https://kiketasu.github.io/tribute-page/" target="_blank"><img src="./assets/tribute.jpg" alt="Gregory Clark tribute" /></a>
+          <h3>Tribute page</h3>
+        </div>
+        <div class="project-card">
+          <a href="https://kiketasu.github.io/documentation-page/" target="_blank"><img src="./assets/documentation.jpg" alt="Skyrim game description"/></a>
+          <h3>Documentation page</h3>
+        </div>
+        <div class="project-card">
+          <a href="https://kiketasu.github.io/product-landing/" target="_blank"><img src="./assets/landing.jpg" alt="Landing page" /></a>
+          <h3>Landing page</h3>
+        </div>
+      </div>
+      <hr id="separator" />
+      <div id="certificates">
+        <h2>Responsive Web Design certificate</h2>
+        <a href="https://www.freecodecamp.org/certification/enric_orillosa/responsive-web-design"><img src="./assets/rswcertificate.png" alt="freecodecamp certificate" /></a>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Let's work together!</h2>
+      <img id="linkedin-profile"src="./assets/1743542440339.jpeg" alt="me" />
+      <p>
+        I'm currently looking for a job as a web developer. Please reach out and
+        feel free to ask anything work related!
+      </p>
+      <div id="contact-links">
+        <a href="mailto:enricorillosa@hotmail.es" target="_blank"
+          ><img src="./assets/outlook.png" alt="outlook"
+        /></a>
+        <a href="https://www.linkedin.com/in/enric-orillosa/" target="_blank"
+          ><img src="./assets/LinkedIn_icon.png" alt="linkedin"
+        /></a>
+        <a href="https://wa.me/34617113884" target="_blank"
+          ><img src="./assets/WhatsApp.png" alt="whatsapp"
+        /></a>
+      </div>
+    </section>
   </body>
 </html>
