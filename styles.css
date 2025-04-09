@@ -108,6 +108,13 @@ body {
   margin-bottom: 50px;
 }
 
+#my-projects h2 {
+    color: #58514a;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    max-width: 90vw;
+}
+
 #project-container {
   width: 100%;
   margin-top: 50px;
