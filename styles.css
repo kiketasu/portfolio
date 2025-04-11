@@ -201,7 +201,24 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-
+  #hero {
+    padding-top: 70px;
+  }
+  #hero img {
+    width: 250px;
+    height: 250px;
+  }
+  #my-projects img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    
+  }
+  #project-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
   #nav-bar {
     flex-direction: column;
     align-items: center;;
@@ -240,6 +257,16 @@ body {
   #project-container {
     margin-top: 100px;
   }
+
+#my-projects {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
 
   #contact-links img {
     display: flex;
